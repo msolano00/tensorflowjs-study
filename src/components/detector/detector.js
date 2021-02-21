@@ -155,7 +155,7 @@ const Detector = (props) => {
 
             <div className={classes.canvasContainer}>
               <Card variant="outlined">
-                <CardHeader title="AI Detector" subheader="TensorflowJS" />
+                <CardHeader title="AI - Detector de Objetos" subheader="TensorflowJS" />
                 <CardContent>
                   <div className={classes.canvasWrapper}>
                     <canvas id="viewport" className={classes.canvas} />
@@ -178,7 +178,7 @@ const Detector = (props) => {
                   size="large" 
                   startIcon={<ImageSearch />} 
                   color="primary"
-                  onClick={detectHandler}>Analyze
+                  onClick={detectHandler}>Analizar
                 </Button>
               </Paper>
             </div>
